@@ -41,7 +41,7 @@ const Navbar = () => {
         className={`fixed top-0 left-0 w-full z-[999] transition-all duration-500
         ${scrolled ? "bg-black/90 backdrop-blur-lg shadow-lg" : "bg-transparent"}`}
       >
-        <div className="md:max-w-7xl mx-auto px-4 py-2 flex items-center justify-between">
+        <div className="md:max-w-[1550px] mx-auto px-4 py-2 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
             <img src={Logo} alt="Logo" className="w-20" />
           </Link>
