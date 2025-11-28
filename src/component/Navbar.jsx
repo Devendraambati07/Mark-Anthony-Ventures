@@ -47,7 +47,6 @@ const Navbar = () => {
           </Link>
 
           <div className="flex items-center gap-4">
-            <FaUser className="text-xl text-[#FFD584]" />
             <FaBars
               className="text-xl text-[#FFD584] cursor-pointer"
               onClick={() => setOpen(true)}
